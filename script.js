@@ -11,7 +11,7 @@ function add(){
 
 function sub(){
 
-    var result = parseFloat(value1.value)+ parseFloat(value2.value);
+    var result = parseFloat(value1.value)- parseFloat(value2.value);
     document.getElementById("result").innerHTML = result;
 
     clear();
@@ -19,7 +19,7 @@ function sub(){
 
 function mul(){
 
-    var result = parseFloat(value1.value) + parseFloat(value2.value);
+    var result = parseFloat(value1.value) * parseFloat(value2.value);
     document.getElementById("result").innerHTML = result;
 
     clear();
@@ -27,7 +27,7 @@ function mul(){
 
 function div(){
 
-    var result = parseFloat(value1.value) + parseFloat(value2.value);
+    var result = parseFloat(value1.value) / parseFloat(value2.value);
     document.getElementById("result").innerHTML = result;
 
     clear();
